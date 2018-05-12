@@ -5,7 +5,7 @@ require('mahrio').runServer(process.env, __dirname)
 		path: '/',
 		method: 'GET',
 		handler: function(req, rep){
-			rep('Open browser at http://127.0.0.1:6085');
+			rep('Your static site here!');
 		}
 	});
  
