@@ -15,3 +15,5 @@ Get started with a static mahrio site
 
 * clone this repo
 * cd `MAHRIO-static`
+* `docker-compose up`
+* navigate to `127.0.0.1:6085`
