@@ -1,6 +1,6 @@
 version: "3"
 services:
-  mahrio-static:
+  mahrio-staticdo:
     build: .
     container_name: mahrio-static
     env_file:

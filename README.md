@@ -1,19 +1,19 @@
 # MAHRIO-static
 Get started with a static mahrio site
 
-## Instructions
-
-#Regular Installation
+### How to get started
 
 * clone this repo
 * cd `MAHRIO-static`
-* `npm i` to install `mahrio`
-* start up the nodejs server with `node index.js`
+
+### Running without Docker
+
+* `npm i` to install nodejs packages
+* `node index.js` to startup node webapp
 * navigate to `127.0.0.1:6085`
 
-#Docker Installation
+### Running with Docker
 
-* clone this repo
-* cd `MAHRIO-static`
-* `docker-compose up`
+* `docker-compose up` to install and startup
+
 * navigate to `127.0.0.1:6085`
