@@ -1,0 +1,10 @@
+version: "3"
+services:
+  mahrio-static:
+    build: .
+    container_name: mahrio-static
+    env_file:
+      - docker.env
+    ports:
+      - "6085:6085"
+    restart: always
