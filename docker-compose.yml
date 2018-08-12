@@ -1,10 +1,10 @@
 version: "3"
 services:
-  mahrio-staticdo:
+  mahrio-webapp-static:
     build: .
-    container_name: mahrio-static
+    container_name: mahrio-webapp-static
     env_file:
       - docker.env
     ports:
-      - "6085:6085"
+      - "8081:8081"
     restart: always
