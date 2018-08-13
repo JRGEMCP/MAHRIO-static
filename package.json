@@ -2,7 +2,8 @@
   "name": "MAHRIO-static",
   "version": "0.0.1",
   "dependencies": {
-    "mahrio": "latest"
+    "mahrio": "latest",
+    "node-env-file": "^0.1.8"
   },
   "scripts": {
     "start": "node index.js"
