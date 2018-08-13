@@ -18,4 +18,4 @@ COPY . /usr/src/mahrio/
 
 EXPOSE 8081
 
-CMD ["npm", "start"]
+CMD ["npm", "start","-h","0.0.0.0"]
