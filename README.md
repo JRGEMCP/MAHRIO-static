@@ -10,10 +10,10 @@ Get started with a static mahrio site
 
 * `docker-compose up` to install and startup
 
-* navigate to `127.0.0.1:6085`
+* navigate to `127.0.0.1:8081`
 
 ### Running without Docker
 
 * `npm i` to install nodejs packages
 * `node index.js` to startup node webapp
-* navigate to `127.0.0.1:6085`
+* navigate to `127.0.0.1:8081`
