@@ -1,12 +1,17 @@
 {
   "name": "MAHRIO-static",
   "version": "0.0.1",
+  "main": "index.js",
   "dependencies": {
     "mahrio": "latest",
     "node-env-file": "^0.1.8"
   },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^5.2.0"
+  },
   "scripts": {
     "start": "node index.js",
-    "test": "node index.js"
+    "test": "mocha --exit"
   }
 }
