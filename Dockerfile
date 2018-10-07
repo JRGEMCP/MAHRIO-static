@@ -1,7 +1,7 @@
 FROM node:carbon
 
 # Create app directory
-RUN mkdir -p /usr/src/mahrio
+RUN mkdir -p /usr/src/mahrio/public
 WORKDIR /usr/src/mahrio
 COPY package*.json /usr/src/mahrio/
 
