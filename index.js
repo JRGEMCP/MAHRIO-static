@@ -11,9 +11,9 @@ require('mahrio').runServer(process.env, __dirname)
  	server.route({
 		path: '/',
 		method: 'GET',
-		handler: function(req, rep){
-			rep('Your static site new here!');
+		handler: function(req, h){
+			return h.response('Your static site new here!');
 		}
 	});
-
+	
  });
